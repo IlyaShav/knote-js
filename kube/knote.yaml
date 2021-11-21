@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
         - name: knote
-          image: learnk8s/knote-js:2.0.0
+          image: 361435822559.dkr.ecr.us-east-1.amazonaws.com/my_apps:knoteapp
           ports:
             - containerPort: 3000
           env:
